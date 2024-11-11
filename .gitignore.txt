@@ -1,55 +1,36 @@
 # Python virtual environment
 venv/
-env/
 .venv/
+env/
 
-# Jupyter Notebook
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
 # Python cache files
 __pycache__/
 *.py[cod]
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
+# Project dependencies
 *.egg-info/
+.eggs/
 .installed.cfg
-*.egg
-
-# PyCharm
-.idea/
 
 # VS Code
 .vscode/
 
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-*.log
+# PyCharm
+.idea/
 
 # Environment variables
 .env
 
-# Data files (uncomment if you don't want to track data files)
-# *.csv
-# *.json
-# *.xlsx
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data files (optional)
+*.csv
+*.json
