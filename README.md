@@ -15,6 +15,9 @@ text
 python -m venv venv
 text
 
+*** IF ERROR USE WINDOWS POWERSHELL IN SAME FOLDER AND RUN THIS
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+***
 3. Activate the virtual environment:
 - On Windows:
   ```
