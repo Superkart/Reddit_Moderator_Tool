@@ -1,0 +1,36 @@
+# Ignore virtual environments
+venv/
+.venv/
+env/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore project dependencies and other unnecessary files
+*.egg-info/
+.eggs/
+.installed.cfg
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Data files (optional)
+*.csv
+*.json
